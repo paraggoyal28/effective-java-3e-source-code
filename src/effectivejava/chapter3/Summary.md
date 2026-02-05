@@ -75,3 +75,7 @@ public boolean equals(MyClass o) {
     ...
 }
 
+Point 2: The key provision that is violated when you fail to override hashCode is the second one: equal objects must have equal hash codes. 
+
+We must override *hashcode* in every class that overrides *equals*
+
